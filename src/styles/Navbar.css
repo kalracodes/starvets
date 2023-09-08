@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.logo{
+    width: 30%;
+    font-weight: 700;
+}
+.logo img{
+    height: 36px;
+    margin-right: 12px;
+}
+.nav-items{
+    width: 50vw;
+    margin-right: 100px;
+    display: flex;
+    gap: 32px;
+    justify-content: right;
+
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: var(--green);
+    cursor: pointer;
+}
