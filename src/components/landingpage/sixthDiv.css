@@ -1,0 +1,38 @@
+.Reviews{
+    height:60vh;
+    background-color: #FEFEF2;
+    overflow: hidden;
+}
+
+.Rev{
+    position: relative;
+    color: #139F7E;
+text-align: center;
+font-family: Poppins;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 90%; /* 108px */
+}
+.RevBox{
+    display: flex;
+}
+.daBox{
+    width: 426px;
+    height: 284.754px;
+    flex-shrink: 0;
+    border-radius: 16.687px;
+    border: 0.834px solid #139F7E;
+    background: #E5F9E9;
+    margin: 2%;
+}
+.Name{
+    position: relative;
+    color: #139F7E;
+font-family: Poppins;
+font-size: 37.721px;
+font-style: normal;
+font-weight: 500;
+line-height: 90%; 
+margin:4%;
+}

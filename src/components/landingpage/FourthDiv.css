@@ -1,0 +1,77 @@
+.Fourth{
+    height: 50vh;
+    background-color: #FEFEF2;
+   position: relative;
+    
+}
+.Text{
+    display: flex;
+    justify-content: center;
+}
+.Why{
+color: var(--Aqua-Blue, #021939);
+font-family: Poppins;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 90%; 
+}
+.Choose{
+color: #139F7E;
+font-family: Poppins;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 90%; 
+margin-left: 30px;
+}
+
+.Us{
+    color: var(--Aqua-Blue, #021939);
+font-family: Poppins;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 90%; 
+margin-left: 30px;
+}
+.pride{
+color: var(--Aqua-Blue, #021939);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+margin-top: 25px;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .featureIcon {
+    width: 50px;
+    height: 50px;
+    z-index: 3;
+  }
+  
+  .featureTitle {
+    color: #021939;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+  }
+  
+  
