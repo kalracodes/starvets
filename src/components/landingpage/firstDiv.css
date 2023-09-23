@@ -1,0 +1,168 @@
+.body{
+    background-color: #FEFEF2;
+}
+
+.Rabbit{
+    background-color: black;
+    height: 75vh;
+    width:175vh;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.Title{
+    color: var(--Teal-white, #FEFEF2);
+    font-family: Poppins;
+    font-size: 100.418px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; 
+    text-align: left;
+    margin-top: 25vh;
+
+}
+.Desc{
+color: #FFFFE2;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+line-height: 88.5%;
+text-align: left;
+padding: 7px;
+padding-left: 7px;
+
+}
+.WhatWeDo{
+    
+    height: 35vh;
+    position: relative;
+   z-index: 3;
+   background-color:ffffff;
+   margin-top: -3%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px black;
+    z-index: 3;
+}
+
+.box {
+    height: fit-content;
+    width: fit-content; 
+    padding: 1em; 
+    background: #139F7E;
+    box-sizing: border-box; 
+    color: black;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 5px black;
+}
+.Appointment{
+color: #FFF;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: 88.5%; /* 31.86px */
+text-transform: uppercase;
+text-align: left;
+text-shadow: black;
+
+}
+.boxes{
+    display: flex;
+    text-align: left;
+}
+
+.AppDesc{
+    font-size: 12px;
+    color: #FEFEF2;
+    padding:2px;
+    text-align: left;
+}
+.links{
+    font-size: 17px;
+    color: #FEFEF2;
+    font-weight: 600;
+    padding:2px;
+    text-align: left;
+    padding-top: 5px;
+
+}
+.links:hover{
+    text-decoration: underline;
+}
+
+.Consultation{
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 88.5%; /* 31.86px */
+text-transform: uppercase;
+text-align: left;
+}
+
+.Visit{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 88.5%; /* 31.86px */
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.svg1{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.svg1{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.svg2{
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+.svg3{
+    margin-left: 60%;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Rabbit{
+      height: 68vh;
+      width:100vw;
+    }
+  
+    .Title{
+      font-size: 40px;
+      margin-top: 40vh;
+
+    }
+  
+    .Desc{
+      font-size: 16px;
+    }
+    .container {
+        flex-direction: column;
+        
+    }
+    .box {
+        width: 100%; 
+        padding:10px;
+        margin-bottom: 8px;
+        margin-left:4px;
+        box-shadow: 10px black;
+    }
+
+  }

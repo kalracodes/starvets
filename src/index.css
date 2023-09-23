@@ -10,11 +10,17 @@
   }
 }
 
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+<<<<<<< HEAD
+  box-sizing: border-box;
 
+=======
+  background-color:#fefef2;
+>>>>>>> b60d4b7c53975e1e3138a1d81b38e91edfb57659
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

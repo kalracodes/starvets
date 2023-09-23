@@ -2,22 +2,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
+    width: 100%;
+
+    position: absolute;
 }
 
 .logo{
-    width: 30%;
+    width: fit-content;
     font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 12px;
+
+    font-size: 16px;
 }
 .logo img{
     height: 36px;
     margin-right: 12px;
 }
 .nav-items{
-    width: 50vw;
-    margin-right: 100px;
+    margin-right: 1vw;
     display: flex;
-    gap: 32px;
+    gap: 1.6vw;
     justify-content: right;
 
     font-weight: 500;
@@ -26,3 +34,18 @@
     color: var(--green);
     cursor: pointer;
 }
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-item-arrow:after{
+    font-family: 'Material Symbols Outlined';
+    content: '\e5cf';
+    margin-left: 0.25rem;
+    transform: scale(1.5);
+}
+

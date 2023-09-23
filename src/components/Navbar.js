@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Navbar.css"
+import "../styles/Navbar.css";
 
 export default function Navbar() {
   return (
@@ -9,11 +9,11 @@ export default function Navbar() {
         <a className="inline">Stars Vet Animal & Bird Clinic</a>
       </div>
       <div className="nav-items flex-row gap-10">
-        <a className="nav-item">Species We Treat</a>
-        <a className="nav-item">Services</a>
-        <a className="nav-item">Location</a>
-        <a className="nav-item">About Us</a>
-        <a className="nav-item">Contact Us</a>
+        <a className="nav-item nav-item-arrow" id="species">Species We Treat</a>
+        <a className="nav-item nav-item-arrow" id="services">Services</a>
+        <a className="nav-item" id="location">Location</a>
+        <a className="nav-item" id="about">About Us</a>
+        <a className="nav-item" id="contact">Contact Us</a>
       </div>
     </div>
   );
