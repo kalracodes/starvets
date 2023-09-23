@@ -1,0 +1,190 @@
+
+.rod {
+    position: relative;
+    height: 100vh;
+    background-color: #FEFEF2;
+}
+
+.Rab {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.tent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.Rabbits {
+    color: #FFF;
+    
+    text-align: center;
+    font-family: Poppins;
+    font-size: 100.038px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -5.522px;
+}
+
+.waveImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Search {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5%;
+}
+
+.button {
+    display: inline-flex;
+    padding: 24px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--Caribbean-Green, #01CB9B);
+}
+
+.Book {
+    color: var(--Teal-white, #FEFEF2);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 88.5%; /* 28.32px */
+}
+
+.best {
+    height: 15vh;
+    background-color: #FEFEF2;
+    margin-top: 5%;
+    color: var(--Green, #06A37E);
+text-align: center;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; 
+letter-spacing: -2.88px;
+}
+.para{
+    color: var(--Aqua-Blue, #021939);
+    background-color: #FEFEF2;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 136%;
+}
+.dyk {
+    position: relative;
+    height: 50vh;
+    
+}
+
+.shareer, .headd {
+    position: absolute;
+    top: 20%;
+    left: 10;
+}
+.shareer{
+
+}
+
+
+
+.headd {
+    height:800px;
+    margin-top: -28%;
+    margin-left: 5%;
+    height :580px;
+    width: 580px;
+    z-index: 3;
+    
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    z-index: 4;
+}
+.bigRab{
+    display: flex;
+    margin-top: 2%;
+}
+.didju{
+    display: flex;
+    margin-left: 11%;
+}
+.ss{
+    color: var(--Aqua-Blue, #021939);
+text-align: center;
+font-family: Poppins;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 90%; 
+
+}
+.sf{
+    position: relative;
+    color: var(--Green, #06A37E);
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    padding-left: 20px;
+}
+.fy{
+    position: relative;
+    width: 590px;
+height: 155px;
+flex-shrink: 0;
+    color: var(--Aqua-Blue, #021939);
+text-align: right;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+margin-left: 50%;
+margin-top:-20% ;
+line-height: 136%; 
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .dyk {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
+  
+    .body, .headd {
+      position: static;
+      width: 100%;
+    }
+  }
+  
+
