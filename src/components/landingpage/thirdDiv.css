@@ -1,0 +1,134 @@
+.grids{
+    height: 80vh;
+    background-color: #FEFEF2;
+    position: relative;
+height: 100vh;
+}
+
+.ExPets{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.Exotic{
+    color: #139F7E;
+text-align: center;
+font-family: Poppins;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 90%; 
+padding: 50px 30px 30px 0px;
+
+
+}
+
+.myDiv{
+    display: none;
+}
+.treat{
+    color: var(--Aqua-Blue, #021939);
+font-family: Poppins;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 90%;
+padding: 50px 30px 30px 0px;
+}
+
+.rr{
+ color: var(--Aqua-Blue, #021939);
+ margin-left: 80px;
+ margin-right: 80px;
+text-align: center;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 24px */
+letter-spacing: 0.4px;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 30px;
+    margin-left:60px;
+  }
+  
+  .grid-item {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 22.79px;
+
+  
+  
+  }
+
+  .Heading{
+    color: var(--Aqua-Blue, #021939);
+    padding: 10px;
+font-family: Poppins;
+font-size: 39.087px;
+font-style: normal;
+font-weight: 600;
+line-height: 90%;
+text-align: left;
+  }
+.explanation{
+    padding: 20px;
+    width: 293.424px;
+    color: var(--Aqua-Blue, #021939);
+font-family: Poppins;
+font-size: 14.193px;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 18.232px */
+text-align: left;
+}
+.moreInfo{
+color: var(--Aqua-Blue, #021939);
+font-family: Poppins;
+font-size: 18.992px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: -30%;
+text-align: left;
+}
+.moreInfo:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .grids {
+        margin-top: 30px;
+        height: fit-content;
+
+        }
+        .ExPets {
+        flex-direction: column;
+        }
+        .Exotic {
+        font-size: 42px;
+        padding: 5px;
+        margin-top: 5px;
+        }
+        .treat {
+        font-size: 42px;
+        padding: 5px;
+        }
+        .rr {
+        font-size: 15px;
+        }
+        .grid-container {
+        display: none;
+        
+        }
+        .myDiv{
+            display:block;
+        }
+}

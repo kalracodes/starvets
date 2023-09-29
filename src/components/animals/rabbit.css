@@ -1,0 +1,317 @@
+
+.rod {
+    position: relative;
+    height: 100vh;
+    background-color: #FEFEF2;
+}
+
+.Rab {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    min-height: 70vh;
+}
+
+.tent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.Rabbits {
+    color: #FFF;
+    
+    text-align: center;
+    font-family: Poppins;
+    font-size: 100.038px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -5.522px;
+}
+
+.waveImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Search {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5%;
+}
+
+.button {
+    display: inline-flex;
+    padding: 24px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--Caribbean-Green, #01CB9B);
+}
+
+.Book {
+    color: var(--Teal-white, #FEFEF2);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 88.5%; /* 28.32px */
+}
+
+.best {
+    height: 15vh;
+    background-color: #FEFEF2;
+    margin-top: 5%;
+    color: var(--Green, #06A37E);
+text-align: center;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; 
+letter-spacing: -2.88px;
+}
+.para{
+    color: var(--Aqua-Blue, #021939);
+    background-color: #FEFEF2;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 136%;
+}
+.dyk {
+    position: relative;
+    height: 50vh;
+    
+}
+.fhh{
+    width: 500px;
+    height: 590px;
+    min-width: 300px;
+    min-height:360px;
+}
+.bigRab{
+    display: flex;
+    margin-top: 2%;
+}
+.didju{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+.ss{
+    color: var(--Aqua-Blue, #021939);
+text-align: center;
+font-family: Poppins;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 90%; 
+padding-right: 20px;
+
+}
+.sz{
+    color: var(--Aqua-Blue, #021939);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; 
+    padding-right: 20px;
+
+}
+.trr{
+    display: block;
+}
+.sf{
+    position: relative;
+    color: var(--Green, #06A37E);
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+   position: relative;
+}
+.fy{
+    position: relative;
+    width: 590px;
+height: 155px;
+flex-shrink: 0;
+    color: var(--Aqua-Blue, #021939);
+text-align: right;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+margin-left: 50%;
+margin-top:-50% ;
+line-height: 136%; 
+
+}
+.pra{
+    margin-right: 50%;
+    margin-top: 30%;
+}
+.servv{
+    margin-top: 20%;
+ 
+    display: flex;
+}
+.gh{
+    color: var(--Aqua-Blue, #021939);
+font-family: Poppins;
+font-size: 62px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 72px */
+
+}
+.gj{
+    color: var(--Green, #06A37E);
+font-family: Poppins;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+}
+.brah{
+    color: var(--Aqua-Blue, #021939);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 28.8px */
+text-align: left;
+margin-left: 15%;
+padding: 30px 30px 30px 0px;
+
+width: 600px;
+}
+.jkj{
+    min-width: 300px;
+    min-height:300px;
+    margin-left: 30%;
+    
+}
+
+@media (max-width: 768px) {
+    .Rabbits{
+        font-size: 60px;
+        letter-spacing: -1;
+        margin-top: -35%;
+    }
+    .Search{
+        font-size: 15px;
+    }
+    .button{
+        width: 200px;
+        height: 30px;
+        margin-top: -3%;
+    }
+    .Book{
+        font-size: 14px;
+
+    }
+    .best{
+        margin-top: -30%;
+    }
+  .vet{
+    font-size: 30px;
+
+  }
+  .para{
+    font-size: 14px;
+    padding: 20px;
+  }
+  .bigRab{
+    display: block;
+  }
+  .fhh{
+    width: 300px;
+    height: 360px;
+    margin-left: 30%;
+  }
+  .didju{
+    padding-top: 10px;
+    margin-top: -2%;
+    text-align: center;
+    
+  }
+  .ss, .sz, .sf{
+    font-size: 60px;
+  }
+  .fy{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+  }
+  .servv{
+    display: block;
+  }
+  .gh{
+    font-size: 45px;
+  }
+  .gj{
+    font-size: 48px;
+  }
+  .brah{
+    text-align: center;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 5%;
+  }
+  .jkj{
+    width: 200px;
+    height: 200px;
+
+  }
+  .yoo{
+    align-items: center;
+  }
+  }
+  
+@media only screen and (max-width:550px){
+    .ss, .sz, .sf{
+        font-size: 40px;
+        padding-right: 10px;
+      }
+    .didju{
+        margin-left:20%;
+    }
+    .fy{
+        position:relative;
+        width: 400px;
+        margin-left: 26%;
+    }
+    .servv{
+        margin-left: 21%;
+    }
+    .brah{
+        width: 400px;
+        margin-left: -11%;
+    }
+}
