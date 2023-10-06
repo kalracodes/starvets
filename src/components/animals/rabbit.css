@@ -9,7 +9,6 @@
     position: relative;
     width: 100%;
     height: fit-content;
-    min-height: 70vh;
 }
 
 .tent {
@@ -101,11 +100,31 @@ line-height: 136%;
     height: 50vh;
     
 }
-.fhh{
-    width: 500px;
-    height: 590px;
-    min-width: 300px;
-    min-height:360px;
+
+.shareer, .headd {
+    position: absolute;
+    top: 20%;
+    left: 10;
+}
+.shareer{
+
+}
+
+
+
+.headd {
+    height:800px;
+    margin-top: -28%;
+    margin-left: 5%;
+    height :580px;
+    width: 580px;
+    z-index: 3;
+    
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    z-index: 4;
 }
 .bigRab{
     display: flex;
@@ -113,8 +132,7 @@ line-height: 136%;
 }
 .didju{
     display: flex;
-    margin-left: 25%;
-    margin-top: 20%;
+    margin-left: 11%;
 }
 .ss{
     color: var(--Aqua-Blue, #021939);
@@ -124,22 +142,7 @@ font-size: 80px;
 font-style: normal;
 font-weight: 700;
 line-height: 90%; 
-padding-right: 20px;
 
-}
-.sz{
-    color: var(--Aqua-Blue, #021939);
-    text-align: center;
-    font-family: Poppins;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 90%; 
-    padding-right: 20px;
-
-}
-.trr{
-    display: block;
 }
 .sf{
     position: relative;
@@ -149,7 +152,7 @@ padding-right: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 90%;
-   position: relative;
+    padding-left: 20px;
 }
 .fy{
     position: relative;
@@ -159,159 +162,29 @@ flex-shrink: 0;
     color: var(--Aqua-Blue, #021939);
 text-align: right;
 font-family: Poppins;
-font-size: 20px;
+font-size: 24px;
 font-style: normal;
 font-weight: 300;
 margin-left: 50%;
-margin-top:-50% ;
+margin-top:-20% ;
 line-height: 136%; 
 
 }
-.pra{
-    margin-right: 50%;
-    margin-top: 30%;
-}
-.servv{
-    margin-top: 20%;
- 
-    display: flex;
-}
-.gh{
-    color: var(--Aqua-Blue, #021939);
-font-family: Poppins;
-font-size: 62px;
-font-style: normal;
-font-weight: 700;
-line-height: 100%; /* 72px */
 
-}
-.gj{
-    color: var(--Green, #06A37E);
-font-family: Poppins;
-font-size: 90px;
-font-style: normal;
-font-weight: 700;
-line-height: 100%;
-}
-.brah{
-    color: var(--Aqua-Blue, #021939);
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 300;
-line-height: 120%; /* 28.8px */
-text-align: left;
-margin-left: 15%;
-padding: 30px 30px 30px 0px;
 
-width: 600px;
-}
-.jkj{
-    min-width: 300px;
-    min-height:300px;
-    margin-left: 30%;
-    
-}
+
 
 @media (max-width: 768px) {
-    .Rabbits{
-        font-size: 60px;
-        letter-spacing: -1;
-        margin-top: -35%;
+    .dyk {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
     }
-    .Search{
-        font-size: 15px;
+  
+    .body, .headd {
+      position: static;
+      width: 100%;
     }
-    .button{
-        width: 200px;
-        height: 30px;
-        margin-top: -3%;
-    }
-    .Book{
-        font-size: 14px;
-
-    }
-    .best{
-        margin-top: -30%;
-    }
-  .vet{
-    font-size: 30px;
-
-  }
-  .para{
-    font-size: 14px;
-    padding: 20px;
-  }
-  .bigRab{
-    display: block;
-  }
-  .fhh{
-    width: 300px;
-    height: 360px;
-    margin-left: 30%;
-  }
-  .didju{
-    padding-top: 10px;
-    margin-top: -2%;
-    text-align: center;
-    
-  }
-  .ss, .sz, .sf{
-    font-size: 60px;
-  }
-  .fy{
-    font-size: 15px;
-    text-align: center;
-    margin-left: 15%;
-    padding-top: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
-
-  }
-  .servv{
-    display: block;
-  }
-  .gh{
-    font-size: 45px;
-  }
-  .gj{
-    font-size: 48px;
-  }
-  .brah{
-    text-align: center;
-    font-size: 15px;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin-left: 5%;
-  }
-  .jkj{
-    width: 200px;
-    height: 200px;
-
-  }
-  .yoo{
-    align-items: center;
-  }
   }
   
-@media only screen and (max-width:550px){
-    .ss, .sz, .sf{
-        font-size: 40px;
-        padding-right: 10px;
-      }
-    .didju{
-        margin-left:20%;
-    }
-    .fy{
-        position:relative;
-        width: 400px;
-        margin-left: 26%;
-    }
-    .servv{
-        margin-left: 21%;
-    }
-    .brah{
-        width: 400px;
-        margin-left: -11%;
-    }
-}
+

@@ -48,11 +48,10 @@ function FifthDiv () {
 
             </div> 
             </div>
-            <div className="picc">
             <img className ="bird" src = {image}/>
             <img className ="blob" src = {blob}/>
             </div>
-            </div>
+
         </div>
         </div>
     )

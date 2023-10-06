@@ -1,5 +1,4 @@
 .Reviews{
-    margin-top: 5%;
     height:60vh;
     background-color: #FEFEF2;
     overflow: hidden;
@@ -19,9 +18,8 @@ line-height: 90%; /* 108px */
     display: flex;
 }
 .daBox{
-    width: fit-content;
-    min-width: 300px;
-    height: 224.754px;
+    width: 426px;
+    height: 284.754px;
     flex-shrink: 0;
     border-radius: 16.687px;
     border: 0.834px solid #139F7E;
@@ -37,24 +35,4 @@ font-style: normal;
 font-weight: 500;
 line-height: 90%; 
 margin:4%;
-}
-@media only screen and (max-width:800px){
-    .Reviews {
-        margin-top: 20%;
-        }
-        .Rev {
-        font-size: 60px;
-        }
-        .daBox {
-      
-        width: fit-content;
-        min-width: 350px;
-        margin-left: 20%;
-        }
-        .RevBox {
-        width: 400px;
-        overflow: hidden;
-        padding-top: 40px;
-        }
-        
 }

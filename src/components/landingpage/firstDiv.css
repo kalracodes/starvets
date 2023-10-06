@@ -5,7 +5,7 @@
 .Rabbit{
     background-color: black;
     height: 75vh;
-    width:100%;
+    width:175vh;
     position: relative;
     z-index: 2;
     overflow: hidden;
@@ -52,8 +52,7 @@ padding-left: 7px;
 
 .box {
     height: fit-content;
-    width: fit-content;
-    min-width: 300px; 
+    width: fit-content; 
     padding: 1em; 
     background: #139F7E;
     box-sizing: border-box; 
@@ -165,32 +164,5 @@ text-align: left;
         margin-left:4px;
         box-shadow: 10px black;
     }
-    .container {
-        flex-direction: column;
-        padding-left: 10px;
-        padding-right: 10px;
-        }
-        .box {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 8px;
-        margin-left: 4px;
-        box-shadow: 10px black;
-        }
-        .svg1 {
-        margin-left: 50%;
-        margin-bottom: 5px;
-        
-        
-        }
-        .Welcome {
-            margin-top: 65%;
-            height: 13vh;
-            overflow: visible;
-            }
-    .svg2 {
-                margin-left: 50%;
-                margin-bottom: 5px;
-      }
 
   }

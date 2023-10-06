@@ -1,11 +1,6 @@
 import React from "react";
 import "./thirdDiv.css";
-import rab from "../assets/rab.svg"
-import rep from "../assets/rep.svg"
-import amph from "../assets/amph.svg"
-import bir from "../assets/bir.svg"
-import fish from "../assets/fish.svg"
-import gipi from "../assets/gipi.svg"
+import Reptile from "./assets/reptile";
 
 function ThirdDiv () {
     return(
@@ -19,24 +14,36 @@ function ThirdDiv () {
           <p className="rr">We take pride in being your top choice as pet doctors. Our expertise extends beyond cats and dogs; we specialize in exotic veterinary care, catering to a wide range of unique and small-sized pets.</p>
           <div class="grid-container">
             <div class="grid-item">
-               
-                <img src={rab}></img>
+                <h1 className="Heading">Reptiles</h1>
+                <p className="explanation">lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                <a className = "moreInfo"href="moreInfo">More Information</a>
+                <img src=""></img>
                
              </div>
             <div class="grid-item">
-            <img src={rep}></img>
+            <h1 className="Heading">Reptiles</h1>
+                <p className="explanation">lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                <a className = "moreInfo"href="moreInfo">More Information &gt;</a>
             </div>
             <div class="grid-item">
-            <img src={bir}></img>
+            <h1 className="Heading">Reptiles</h1>
+                <p className="explanation">lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                <a className = "moreInfo"href="moreInfo">More Information &gt;</a>
             </div>
             <div class="grid-item">
-            <img src={gipi}></img>
+            <h1 className="Heading">Reptiles</h1>
+                <p className="explanation">lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                <a className = "moreInfo"href="moreInfo">More Information &gt;</a>
             </div>
             <div class="grid-item">
-            <img src={fish}></img>
+            <h1 className="Heading">Reptiles</h1>
+                <p className="explanation">lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                <a className = "moreInfo"href="moreInfo">More Information &gt;</a>
             </div>
             <div class="grid-item">
-            <img src={amph}></img>
+            <h1 className="Heading">Reptiles</h1>
+                <p className="explanation">lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                <a className = "moreInfo"href="moreInfo">More Information &gt;</a>
             </div>
             </div>
           

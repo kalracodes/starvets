@@ -2,7 +2,7 @@
     height: 80vh;
     background-color: #FEFEF2;
     position: relative;
-height: 100vh;
+
 }
 
 .ExPets{
@@ -21,12 +21,8 @@ font-weight: 700;
 line-height: 90%; 
 padding: 50px 30px 30px 0px;
 
-
 }
 
-.myDiv{
-    display: none;
-}
 .treat{
     color: var(--Aqua-Blue, #021939);
 font-family: Poppins;
@@ -62,8 +58,8 @@ letter-spacing: 0.4px;
     height: fit-content;
     width: fit-content;
     border-radius: 22.79px;
-
-  
+  border: 0.95px solid #139F7E;
+  background: linear-gradient(0deg, rgba(1, 203, 155, 0.10) 0%, rgba(1, 203, 155, 0.10) 100%), var(--Teal-white, #FEFEF2);
   
   }
 
@@ -103,32 +99,17 @@ text-align: left;
 }
 
 @media only screen and (max-width: 600px) {
-  
-    .grids {
-        margin-top: 30px;
-        height: fit-content;
-
-        }
-        .ExPets {
+    .ExPets{
         flex-direction: column;
-        }
-        .Exotic {
-        font-size: 42px;
+    }
+    .Exotic{
+        font-size: 38px;
         padding: 5px;
         margin-top: 5px;
-        }
-        .treat {
-        font-size: 42px;
+    }
+    .treat{
+        font-size: 38px;
         padding: 5px;
-        }
-        .rr {
-        font-size: 15px;
-        }
-        .grid-container {
-        display: none;
-        
-        }
-        .myDiv{
-            display:block;
-        }
+    }
+
 }
