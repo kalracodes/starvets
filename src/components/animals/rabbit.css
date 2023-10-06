@@ -212,8 +212,90 @@ width: 600px;
     margin-left: 30%;
     
 }
+@media (max-width: 1000px) {
+    .Rabbits{
+        font-size: 80px;
+        letter-spacing: -1;
+        margin-top: -35%;
+    }
+    .Search{
+        font-size: 20px;
+    }
+    .button{
+        width: 200px;
+        height: 50px;
+        margin-top: -3%;
+    }
+    .Book{
+        font-size: 18px;
 
-@media (max-width: 768px) {
+    }
+    .best{
+        margin-top: -10%;
+    }
+  .vet{
+
+    font-size: 30px;
+
+  }
+  .para{
+    font-size: 14px;
+    padding: 20px;
+  }
+  .bigRab{
+    display: block;
+  }
+  .fhh{
+    width: 300px;
+    height: 360px;
+    margin-left: 30%;
+  }
+  .didju{
+    padding-top: 10px;
+    margin-top: -1%;
+    text-align: center;
+    
+  }
+  .ss, .sz, .sf{
+    font-size: 60px;
+  }
+  .fy{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 35%;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+  }
+  .servv{
+    
+    display: block;
+  }
+  .gh{
+    font-size: 55px;
+  }
+  .gj{
+    font-size: 60px;
+  }
+  .brah{
+    text-align: center;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 20%;
+  }
+  .jkj{
+    width: 300px;
+    height: 300px;
+
+  }
+  .yoo{
+    align-items: center;
+  }
+  }
+
+@media (max-width: 700px) {
     .Rabbits{
         font-size: 60px;
         letter-spacing: -1;

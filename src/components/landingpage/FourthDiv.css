@@ -41,9 +41,12 @@ text-align: center;
 font-family: Poppins;
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
+font-weight: 200;
 line-height: 120%; 
 margin-top: 25px;
+white-space: inherit;
+margin-left: 80px;
+margin-right: 80px;
 }
 
 .features {
@@ -72,6 +75,71 @@ margin-top: 25px;
     font-size: 20px;
     font-weight: 600;
     margin: 20px;
+  }
+  @media only screen and (max-width: 1000px) and (min-width:600px){
+    .Fourth{
+      margin-top: 10%;
+      height: fit-content;
+    }
+    .Why {
+      font-size: 35px;
+      }
+      .Choose {
+      font-size: 35px;
+      margin-left: 10px;
+      }
+      .Us {
+      font-size: 35px;
+      margin-left: 10px;
+      }
+      .pride {
+        
+      font-size: 15px;
+      padding: 4px;
+      }
+      .features {
+  
+      width: fit-content;
+      max-width: 1000px;
+      min-width: 700px;
+     margin-left: 8%;
+      }
+      .feature {
+      padding: 2px;
+      margin-right: 70px;
+      }
+      .featureIcon {
+      width: 70px;
+      height: 70px;
+      z-index: 3;
+      }
+      .featureTitle {
+      max-width: 400px;
+      font-size: 15px;
+      margin: 30px;
+      }
+      .OurServ {
+      padding: 20px;
+      }
+      .fe {
+      font-size: 50px;
+      }
+      .de {
+      font-size: 50px;
+      }
+      .sd {
+      font-size: 12px;
+      padding-left: 20px;
+      padding-right: 20px;
+      }
+      .square {
+      max-width: 550px;
+      }
+      .Al {
+      display: none;
+      }
+ 
+      
   }
   @media only screen and (max-width: 600px){
     .Why {

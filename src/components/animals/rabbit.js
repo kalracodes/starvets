@@ -37,8 +37,8 @@ function Rabbit(){
             <p className="fy">Rabbits are very notorious and expert in hiding their problems. A minute change in their behaviour should alarm you. Sooner the problem is diagnosed, faster the right medication and treatment can be prescribed which will give us better outcome.</p>
         
         </div>
-        </div>
-        </div>
+    </div>
+ </div>
         
         <div className="servv">
             <div className="con">
@@ -53,7 +53,7 @@ function Rabbit(){
         
     
     
-    </div>
+</div>
     
     
     )

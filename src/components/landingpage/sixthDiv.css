@@ -38,6 +38,27 @@ font-weight: 500;
 line-height: 90%; 
 margin:4%;
 }
+@media only screen and (max-width:1000px){
+    .Reviews {
+        margin-top:10%;
+        }
+        .Rev {
+        font-size: 60px;
+        }
+        .daBox {
+      
+        width: fit-content;
+        min-width: 350px;
+        margin-left: 20%;
+        }
+        .RevBox {
+        width: fit-content;
+        min-width: 500px;
+        overflow: hidden;
+        padding-top: 40px;
+        }
+        
+}
 @media only screen and (max-width:800px){
     .Reviews {
         margin-top: 20%;
